@@ -1,0 +1,6 @@
+# ignore ALL files in directories
+dataset/images/
+dataset/train_bw_imgs/
+dataset/train_col_imgs/
+dataset/val_bw_imgs/
+dataset/val_col_imgs/
