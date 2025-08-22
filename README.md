@@ -1,16 +1,15 @@
-Project Overview
+📌 Project Overview
 
-This project explores the design and development of machine learning and accessibility-focused applications that address real-world problems in education, accessibility, healthcare, and safety. The applications are proposed, discussed, and evaluated within a collaborative team setting.
+This project explores the design and development of machine learning and accessibility-focused applications that address real-world problems in education, accessibility, healthcare, and safety.
 
 The main focus of our group was the Braille Text-to-Audio Translator, an innovative solution aimed at enhancing accessibility for individuals with visual impairments by automatically detecting and translating Braille characters into audio in real time.
 
-Applications Proposed
+💡 Applications Proposed
+1. System of Recommendations for Education
 
-System of Recommendations for Education
+An application designed to recommend study paths for students based on their interests.
 
-Application designed to recommend study paths for students based on their interests.
-
-Braille Text-to-Audio Translator (Chosen Project)
+2. Braille Text-to-Audio Translator (Chosen Project)
 
 Target: Recognize and read Grade 1 Braille from images.
 
@@ -21,21 +20,21 @@ Dataset: Kaggle – Braille Character Dataset
 
 Goal: Extend to Grade 2 Braille (78 classes: 29 Grade 1 + 49 Grade 2).
 
-Similar Products: Braille Recognition iOS App
+Similar Product: Braille Recognition iOS App
 .
 
-Colour Distinguisher
+3. Colour Distinguisher
 
-Application designed to help individuals with colour vision deficiency distinguish between different colours.
+An application designed to help individuals with colour vision deficiency distinguish between different colours.
 
 Reference: Color Inspector App
 .
 
-Prediction of Natural Disasters
+4. Prediction of Natural Disasters
 
-Application focused on predicting wildfires, targeting suburban populations at risk.
+An application designed to predict wildfires, targeting suburban populations at risk.
 
-Team Roles
+👥 Team Roles
 
 Coordinator: Muhammad Fahad Sohail
 
@@ -45,31 +44,33 @@ Notetaker: Oyinkansola Ajibola
 
 Timekeeper: Jianhui Qi
 
-Why Braille Text-to-Audio Translator?
+🎯 Why Braille Text-to-Audio Translator?
 
-Braille remains vital for individuals with visual impairments, but traditional methods (touch-based reading or audio books) present challenges in real-world scenarios. Our solution leverages smartphone cameras and envisions future integration into smart glasses, enabling:
+Braille remains vital for individuals with visual impairments, but traditional methods (touch-based reading or audio books) present challenges in real-world scenarios.
 
-Real-time Braille detection and audio translation.
+Our solution leverages smartphone cameras and envisions future integration into smart glasses, enabling:
 
-Hands-free accessibility without physical contact (post-COVID safety).
+✅ Real-time Braille detection and audio translation.
 
-Usability in noisy or complex environments.
+✅ Hands-free accessibility without physical contact (post-COVID safety).
 
-Practicality
+✅ Usability in noisy or complex environments.
 
-Target Audience: English Grade 1 Braille users, with scalability to Grade 2 Braille.
+⚙️ Practicality
 
-Feasibility: Public datasets (Kaggle), pre-developed libraries (TensorFlow, Keras).
+Target Audience: English Grade 1 Braille users (with scalability to Grade 2).
 
-Timeline: Expected completion in a few months with iterative training and testing.
+Feasibility: Public datasets (Kaggle) and libraries (TensorFlow, Keras).
 
-Similar Products
+Timeline: Completion expected in a few months with iterative training and testing.
 
-Existing apps (e.g., Braille Scanner) require multiple steps for translation, making them inconvenient.
+🔍 Similar Products
+
+Existing apps (e.g., Braille Scanner) require multiple steps for translation.
 
 Our solution emphasizes auto-detection and streamlined translation, ensuring ease of use with minimal user interaction.
 
-Data & Model
+🧠 Data & Model
 
 Input: 28×28 pixel images of Braille characters.
 
@@ -79,28 +80,28 @@ Technique: Convolutional Neural Network (CNN) with ReLU (hidden layers) and Soft
 
 Justification:
 
-CNN reduces dimensionality while retaining image features.
+CNN reduces dimensionality while retaining essential features.
 
 Multi-class classification handles multiple Braille characters effectively.
 
 Softmax ensures probabilistic accuracy in classification.
 
-Limitations
+⚠️ Limitations
 
 Variability in captured Braille images (distortion, lighting, angles) may affect recognition accuracy.
 
-Alternatives Considered (and why not chosen)
+🔄 Alternatives Considered
 
-Linear Regression: Not suitable for classification tasks.
+Linear Regression → Not suitable for classification tasks.
 
-Perceptron: Limited to binary outputs, unsuitable for multi-class Braille recognition.
+Perceptron → Limited to binary outputs, unsuitable for multi-class Braille recognition.
 
-Decision Tree: Too simplistic to handle complex Braille dot patterns.
+Decision Tree → Too simplistic for handling complex Braille dot patterns.
 
-Key Takeaways
+🚀 Key Takeaways
 
-Applied supervised learning techniques for accessibility-focused innovation.
+Applied supervised learning for accessibility innovation.
 
 Explored dataset preprocessing, CNN implementation, and real-world challenges.
 
-Emphasized usability, inclusivity, and scalability to future assistive technologies.
+Focused on usability, inclusivity, and scalability for future assistive technologies.
