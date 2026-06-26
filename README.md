@@ -105,7 +105,4 @@ Our solution leverages **smartphone cameras** and envisions future integration i
 - 📷 OpenCV  
 - 🧮 NumPy & Pandas  
 
----
 
-✨ **Resume Highlight**  
-*“Developed a machine learning-based Braille Text-to-Audio Translator leveraging CNNs and Kaggle datasets to enhance accessibility for visually impaired individuals. Designed for real-time detection and translation, with scalability to Grade 2 Braille. Collaborated in a structured team environment, handling dataset preprocessing, model design, and evaluation.”*  
